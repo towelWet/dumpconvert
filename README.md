@@ -6,7 +6,7 @@ dumpboth saves each chat's raw `.jsonl` in its agent's own format.
 Trainers want one conversation per line as `{"messages": [...]}`.
 Soup calls this `chatml`; Unsloth Studio reads it as a chat dataset. dumpconvert converts.
 
-![dumpconvert turning three demo chats into train.jsonl](docs/images/dumpconvert.png)
+![dumpconvert turning real dumped chat into train.jsonl](docs/images/dumpconvert.png)
 
 ## Supported exports
 

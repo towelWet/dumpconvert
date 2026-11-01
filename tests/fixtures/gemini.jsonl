@@ -1,7 +1,7 @@
-{"sessionId":"demo","projectHash":"demo","startTime":"2026-01-01T00:00:00Z","lastUpdated":"2026-01-01T00:00:00Z","kind":"main"}
+{"sessionId":"todo","projectHash":"todo","startTime":"2026-01-01T00:00:00Z","lastUpdated":"2026-01-01T00:00:00Z","kind":"main"}
 {"$set":{"lastUpdated":"2026-01-01T00:00:01Z"}}
 {"id":"u1","timestamp":"2026-01-01T00:00:01Z","type":"user","content":[{"text":"Write tests for the argument parser."}]}
 {"id":"i1","timestamp":"2026-01-01T00:00:02Z","type":"info","content":"Gemini CLI update available!"}
-{"id":"g1","timestamp":"2026-01-01T00:00:03Z","type":"gemini","content":"","thoughts":[{"subject":"Planning","description":"secret reasoning"}],"model":"demo"}
-{"id":"g1","timestamp":"2026-01-01T00:00:03Z","type":"gemini","content":"","thoughts":[{"subject":"Planning","description":"secret reasoning"}],"model":"demo","toolCalls":[{"id":"c1","name":"read_file","args":{"path":"parser.py"},"result":[{"functionResponse":{"id":"c1","name":"read_file","response":{"output":"def parse(): ..."}}}]}]}
-{"id":"g2","timestamp":"2026-01-01T00:00:04Z","type":"gemini","content":"Added three tests.","model":"demo"}
+{"id":"g1","timestamp":"2026-01-01T00:00:03Z","type":"gemini","content":"","thoughts":[{"subject":"Planning","description":"secret reasoning"}],"model":"todo"}
+{"id":"g1","timestamp":"2026-01-01T00:00:03Z","type":"gemini","content":"","thoughts":[{"subject":"Planning","description":"secret reasoning"}],"model":"todo","toolCalls":[{"id":"c1","name":"read_file","args":{"path":"parser.py"},"result":[{"functionResponse":{"id":"c1","name":"read_file","response":{"output":"def parse(): ..."}}}]}]}
+{"id":"g2","timestamp":"2026-01-01T00:00:04Z","type":"gemini","content":"Added three tests.","model":"todo"}
