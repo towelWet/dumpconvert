@@ -6,7 +6,7 @@
 import json
 
 INJECTED = ("<environment_context", "<instructions", "<system-reminder",
-            "# AGENTS.md", "# Codex Global", "<external_codex_")   # same skips as dumpchat-codex.command; last = app UI marker
+            "# AGENTS.md", "# Codex Global", "<external_codex_")   # same skips as dumpboth agents/codex/turn.py; last = app UI marker
 CALLS = {"custom_tool_call": "input", "function_call": "arguments"}   # tool call kind → its argument field
 OUTPUTS = ("custom_tool_call_output", "function_call_output")
 
