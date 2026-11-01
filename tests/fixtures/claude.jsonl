@@ -1,0 +1,2 @@
+{"type": "user", "message": {"role": "user", "content": [{"type": "text", "text": "Write tests for the argument parser."}]}}
+{"type": "assistant", "message": {"role": "assistant", "content": [{"type": "text", "text": "Added 6 tests: empty args, `add` with text, `done` with a valid and an out-of-range index, and an unknown command. All green."}]}}

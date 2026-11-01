@@ -1,0 +1,4 @@
+{"role":"system","content":"<session_context>demo</session_context>"}
+{"role":"user","content":"Write tests for the argument parser."}
+{"role":"tool","content":"ok"}
+{"role":"assistant","content":"Added 6 tests. All green."}

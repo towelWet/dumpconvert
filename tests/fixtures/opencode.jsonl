@@ -1,0 +1,4 @@
+{"info":{"id":"ses_demo","directory":"/demo","title":"demo"}}
+{"info":{"id":"msg_1","role":"user"},"parts":[{"type":"text","text":"Write tests for the argument parser."},{"type":"text","synthetic":true,"text":"injected file listing"}]}
+{"info":{"id":"msg_2","role":"assistant"},"parts":[{"type":"step-start"},{"type":"reasoning","text":"secret reasoning"},{"type":"tool","tool":"read","state":{"status":"completed","input":{"filePath":"parser.py"},"output":"def parse(): ..."}},{"type":"step-finish"}]}
+{"info":{"id":"msg_3","role":"assistant"},"parts":[{"type":"text","text":"Added three tests."}]}

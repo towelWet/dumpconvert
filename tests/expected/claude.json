@@ -1,0 +1,1 @@
+{"messages": [{"role": "user", "content": "Write tests for the argument parser."}, {"role": "assistant", "content": "Added 6 tests: empty args, `add` with text, `done` with a valid and an out-of-range index, and an unknown command. All green."}]}
