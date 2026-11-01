@@ -24,7 +24,8 @@ def main():
         else:                                                      # report, never silently drop
             print(f"skipped: {path} (missing or no user/assistant exchange)", file=sys.stderr)
     args.output.write_text("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in rows), encoding="utf-8")
-    print(f"wrote {len(rows)} conversation(s) → {args.output}", file=sys.stderr)
+    shown = str(args.output).replace(str(Path.home()), "~", 1)     # ~ keeps home folder name out of shared screenshots
+    print(f"wrote {len(rows)} conversation(s) → {shown}", file=sys.stderr)
     return 0 if rows else 1                                        # non-zero when dataset is empty
 
 
