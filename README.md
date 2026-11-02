@@ -1,33 +1,30 @@
 # dumpconvert
 
-Claude Code skill: `/dumpconvert` turns saved AI coding chats into training dataset (Unsloth, Soup, etc).
+dumpconvert turns your saved AI coding chats into a training dataset.
+
+Works with Unsloth, Soup, etc.
 
 ![/dumpconvert typed in live Claude Code chat, writing training dataset](docs/images/dumpconvert.png)
 
-## Install
+## Easy install
 
-```sh
-cp -R skills/* ~/.claude/skills/
-```
+For example, Claude Code:
 
-Needs Python 3. No packages to install.
+Drag the folder in `skills/` to `~/.claude/skills/`
+
+Can't see `.claude`? Press Cmd+Shift+. in Finder.
 
 ## Use
-
-In Claude Code:
 
 ```text
 /dumpconvert all
 /dumpconvert mylabel
 ```
 
-Reads exports from Claude Code, Codex, Cursor, Devin, Gemini CLI and OpenCode.
-Writes one `{"messages": [...]}` conversation per line to `~/Old Chats/datasets/`.
+Needs Python 3. Nothing else to install.
 
-Full instructions: [skills/dumpconvert/SKILL.md](skills/dumpconvert/SKILL.md).
+## Also see
 
-## See also
+[dumpboth](https://github.com/towelWet/dumpboth) saves your AI coding chat as `.md` + `.jsonl`.
 
-[dumpboth](https://github.com/towelWet/dumpboth): save your AI coding chat as `.md` + `.jsonl`.
-
-[dbv](https://github.com/towelWet/dbv): read saved chats on Mac.
+[DBV](https://github.com/towelWet/dbv), a Mac chat viewer for saved Claude chats.
