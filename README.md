@@ -10,7 +10,9 @@ Works with Unsloth, Soup, etc.
 
 For example, Claude Code:
 
-Drag the folder in `skills/` to `~/.claude/skills/`
+Drag the dumpconvert folder into ~/.claude/skills
+
+![Dragging the dumpconvert folder into ~/.claude/skills](docs/images/install.gif)
 
 Can't see `.claude`? Press Cmd+Shift+. in Finder.
 
